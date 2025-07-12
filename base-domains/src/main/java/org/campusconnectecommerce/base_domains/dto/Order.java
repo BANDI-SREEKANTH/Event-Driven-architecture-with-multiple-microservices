@@ -13,7 +13,7 @@ import lombok.Setter;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Order {
-    private int id;
+    private String id;
     private String name;
     private int quantity;
     private double price;
